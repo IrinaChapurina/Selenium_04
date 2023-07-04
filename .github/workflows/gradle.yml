@@ -18,5 +18,3 @@ jobs:
         run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew test
-        install: -java -jar ./artifacts/app-order.jar &
-          - chmod +x gradlew
