@@ -28,7 +28,7 @@ public class OrderCardValidValueTest {
 
     @Test
     void orderCardTest() {
-        driver.get("http://0.0.0.0:9999");
+        driver.get("http://localhost:9999");
         WebElement inputName = driver.findElement(By.cssSelector("[data-test-id = 'name'] input"));
         inputName.sendKeys("Иванов Иван");
         WebElement inputPhone = driver.findElement(By.cssSelector("[data-test-id = 'phone'] input"));
